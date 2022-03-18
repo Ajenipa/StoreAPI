@@ -1,0 +1,20 @@
+{
+  "name": "storeapi",
+  "version": "1.0.0",
+  "description": "Allow access to the products in the store",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-wrapper": "^0.1.0",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
